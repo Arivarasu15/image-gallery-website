@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+.container {
+    padding: 10px;
+    margin: 20px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+
+}
+
+.container h1 {
+    padding: 10px;
+    text-align: center;
+    border-bottom: solid gray 2px;
+}
+
+.container h1:hover{
+    color: white;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+
+
+}
+
+.gallery img {
+    width: 250px;
+    height: 200px;
+    flex-basis: 20%;
+    margin: 20px;
+    border-radius: 10px;
+    flex-grow: 1;
+}
+
+.gallery img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
